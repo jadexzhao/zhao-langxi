@@ -294,12 +294,36 @@ p { margin: 0 0 1em; max-width: 65ch; text-wrap: pretty; }
 .note-panel p { margin: 0; }
 
 .prose h2 { margin-top: 1.75rem; }
+.prose h3 {
+  font-size: 1.1rem;
+  margin: 1.35rem 0 0.55rem;
+}
 .prose ul {
   max-width: 65ch;
   padding-left: 1.25rem;
   margin: 0 0 1.25em;
 }
 .prose li { margin-bottom: 0.45em; }
+
+/* Simplified Chinese essays: body stack that can render 简体 */
+html[lang="zh-Hans"] body {
+  font-family: var(--font-sc);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+html[lang="zh-Hans"] h1,
+html[lang="zh-Hans"] h2,
+html[lang="zh-Hans"] h3 {
+  font-family: var(--font-sc);
+  font-weight: 600;
+}
+html[lang="zh-Hans"] .site-nav,
+html[lang="zh-Hans"] .site-footer,
+html[lang="zh-Hans"] .eyebrow,
+html[lang="zh-Hans"] .byline,
+html[lang="zh-Hans"] .cta {
+  font-family: var(--font-ui);
+}
 
 .photo-block {
   margin: 1.75rem 0 0;

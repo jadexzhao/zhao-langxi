@@ -19,8 +19,12 @@
     var match = false;
     if (href === "/zhao-langxi" || href === "/zhao-langxi/") {
       match = path === "/zhao-langxi" || path === "";
+    } else if (href.indexOf("web-and-social") !== -1) {
+      match = path.indexOf("web-and-social") !== -1;
     } else if (href.indexOf("question") !== -1) {
       match = path.indexOf("question") !== -1;
+    } else if (href.indexOf("places") !== -1) {
+      match = path.indexOf("places") !== -1;
     } else if (href.indexOf("about") !== -1) {
       match = path.indexOf("about") !== -1;
     }
