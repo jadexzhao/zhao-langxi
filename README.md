@@ -9,11 +9,13 @@ Looking human is not the product. Essays on trust, disclosure, ordinary-day use,
 
 ## Pages
 
+Essay body order front-loads limits and honesty (pushback foundation), then the claim.
+
 - Home: `/`
-- The question: `/question.html` (Digital Humans as a question in progress)
-- Places: `/places.html` (Hong Kong Digital Humans note)
-- Web and social 2027: `/web-and-social-2027.html` (简体中文 essay)
-- About: `/about.html`
+- The question: `/question.html` ... standfirst → does not claim → still a question → building toward → useful for a small organisation → related ships
+- Places: `/places.html` ... standfirst → does not claim → honest read → what you meet → Hong Kong catalogues → working checklist → two surfaces
+- Web and social 2027: `/web-and-social-2027.html` ... standfirst → 不声称 → 清单 → 为什么重要 → AI → 工具 → 相关入口
+- About: `/about.html` ... standfirst + not peer-reviewed / not a launch claim → door purpose → roles → instinct → ships → after May 2027 → elsewhere
 
 ## Elsewhere
 
