@@ -5,6 +5,7 @@ Public essay door for Jade Zhao.
 Live: https://zhao-langxi.github.io/zhao-langxi/
 
 Jade Zhao · Digital Humans Project Lead at Luddy · Informatics at Indiana University.
+At the intersection of looking human and actually helping on an ordinary day.
 Looking human is not the product. Essays on trust, disclosure, ordinary-day use, and (in Chinese) why web and social still matter in 2027.
 
 ## Pages

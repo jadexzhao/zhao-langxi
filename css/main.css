@@ -292,6 +292,8 @@ p { margin: 0 0 1em; max-width: 65ch; text-wrap: pretty; }
   margin-bottom: 0.45em;
 }
 .note-panel p { margin: 0; }
+.note-panel p + p { margin-top: 0.75rem; }
+.claim + .claim { margin-top: 0.85rem; }
 
 .prose h2 { margin-top: 1.75rem; }
 .prose h3 {
