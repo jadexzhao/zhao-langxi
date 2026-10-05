@@ -1,28 +1,22 @@
 zhao-langxi · NOTES FOR JADE
-Younger-Whitney voice + yellow accent rhythm on Rivet essay chrome. Review before next edit.
+Younger-Whitney (founding-era) energy + still-in-the-grind voice on Rivet essay chrome.
 
-STATUS · matchaxmoxie
-- Left alone. No HTML/CSS edits under ~/Documents/matchaxmoxie/.
-- Scratch MIT.edu classroom vibe must stay.
+Voice lock (2026-10-04)
+- Early Whitney craft cues only: one sharp rule, kindness + accountability, more rooms, building in public
+- NOT current CEO / IPO / empire energy
+- Hungry early-career Jade: still proving, still rewriting, still have to work hard
+- Thesis: “Looking human is not the product. Respect is.”
+- No invented metrics; no clinical / IRB framing; no em dash; no AI product names
 
-Voice choices
-- Same thesis spine as jadexzhao: “Looking human is not the product. Respect is.”
-- Kindness / accountability framing; restaurant-floor respect
-- Essays = proof of thinking; fill-holes replaced with real draft notes
-- No invented metrics; no clinical / IRB framing
-
-CSS choices
-- Keep Georgia body for essay readability
-- Outfit for UI / headings; yellow nav + footer; black borders
-- Soft yellow panels for BTS / queue notes (not yellow walls of body text)
-- Pill yellow primary CTAs; ink hover invert
+CSS
+- Yellow #FFC629 · Outfit UI · Georgia body for essays
+- main.css?v=20261004-whitney
 
 1st-person taste calls
-- Keep or soften “Respect is.” on this essay door
-- Whether footer should stay full yellow (bold) or return to limestone with yellow stripe
-- Nav labels Thesis/Origin/Essays/Beyond vs essay titles only
+- Keep or soften “Respect is.”
+- Whether footer stays full yellow
+- Nav Thesis/Origin/Essays/Beyond vs essay titles only on inner pages
 
 Preview
-- file:///Users/jadexzhao/Documents/zhao-langxi/index.html
 - Prefer local static server for /zhao-langxi/ base path
-- live after push: https://zhao-langxi.github.io/zhao-langxi/
+- live: https://zhao-langxi.github.io/zhao-langxi/
