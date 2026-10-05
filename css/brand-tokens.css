@@ -1,12 +1,12 @@
-/* zhao-langxi · warm research workspace + coral signal accent */
+/* zhao-langxi · warm research workspace + private sanctuary palette */
 :root {
   --iu-crimson: #990000;
   --iu-crimson-deep: #800000;
-  --yellow: #ff6847;
-  --yellow-soft: #fff0e8;
-  --yellow-deep: #c7432d;
+  --yellow: #d9e6dd;
+  --yellow-soft: #f0eef8;
+  --yellow-deep: #5e587d;
   --iu-page: #f3f0e8;
-  --iu-limestone: #ebe7dd;
+  --iu-limestone: #e6eee8;
   --iu-rule: #d7d2c7;
   --iu-white: #fffdf8;
   --iu-ink: #12201f;
@@ -30,4 +30,17 @@
   --safe-left: env(safe-area-inset-left, 0px);
 
   color-scheme: light;
+}
+
+html[data-theme="high-contrast"] {
+  --iu-page: #000000;
+  --iu-limestone: #000000;
+  --iu-rule: #ffffff;
+  --iu-white: #000000;
+  --iu-ink: #ffffff;
+  --iu-muted: #ffffff;
+  --yellow: #ffff00;
+  --yellow-soft: #101010;
+  --yellow-deep: #ffff00;
+  color-scheme: dark;
 }

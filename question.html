@@ -46,6 +46,7 @@
         <li><a href="/zhao-langxi/#beyond">Beyond</a></li>
         <li><a href="/zhao-langxi/about.html">About</a></li>
       </ul>
+      <button class="theme-toggle" type="button" aria-pressed="false">High contrast</button>
     </div>
   </nav>
 
@@ -61,6 +62,55 @@
     </header>
 
     <article class="prose reveal">
+      <section class="concierge-demo" aria-labelledby="demo-heading">
+        <div class="demo-heading">
+          <p class="eyebrow">Concept surface · not a live matching service</p>
+          <h2 id="demo-heading">From the Sanctuary to the Commons</h2>
+          <p>
+            A calm private space for reflection comes first. Only after the person understands and approves the context should the system show a small set of explainable possibilities.
+          </p>
+        </div>
+        <div class="demo-grid">
+          <section class="sanctuary-panel" aria-labelledby="sanctuary-heading">
+            <div class="aura-wrap" aria-hidden="true">
+              <span class="aura"></span>
+            </div>
+            <p class="demo-state" id="sanctuary-state" role="status" aria-live="polite">Ready when you are. No microphone required.</p>
+            <h3 id="sanctuary-heading">AI Sanctuary</h3>
+            <p class="demo-prompt">Tell me about a boundary you wish you had set earlier.</p>
+            <details class="reflection-card">
+              <summary>Reflective insight</summary>
+              <p>Example only: clarity during transitions may be a value worth discussing, not a label to assign.</p>
+            </details>
+            <form class="demo-form" id="concierge-form">
+              <label for="concierge-response">Your response</label>
+              <textarea id="concierge-response" name="concierge-response" rows="4" placeholder="Write at your own pace..."></textarea>
+              <div class="demo-actions">
+                <button class="cta" type="submit">Hold this reflection</button>
+                <button class="cta secondary" type="reset">Clear</button>
+              </div>
+            </form>
+          </section>
+          <section class="commons-panel" aria-labelledby="commons-heading">
+            <p class="eyebrow">Progressive disclosure · example only</p>
+            <h3 id="commons-heading">The Commons</h3>
+            <p>When a person is ready, the system should show no more than a few choices and explain why they appeared.</p>
+            <details class="match-card">
+              <summary>Possibility 01 · shared pace</summary>
+              <p><strong>Why it surfaced:</strong> both assistants noted a preference for clear communication and independent weekend routines.</p>
+            </details>
+            <details class="match-card">
+              <summary>Possibility 02 · shared growth</summary>
+              <p><strong>Why it surfaced:</strong> both people described long-term learning as important. Review the context before deciding whether it matters.</p>
+            </details>
+            <details class="match-card">
+              <summary>Possibility 03 · needs review</summary>
+              <p><strong>Why it surfaced:</strong> there is a promising overlap, but the available context is incomplete. Uncertainty should be visible.</p>
+            </details>
+          </section>
+        </div>
+      </section>
+
       <h2>What this note does not claim</h2>
       <ul>
         <li>Not a controlled experiment, pilot result, or personal conversion metric.</li>
@@ -104,20 +154,85 @@
         My reading of the public idea is that a Digital Human could become the interface for this concierge: not the person you are trying to date, and not a replacement for the relationship, but a warmer and more legible way to share context with the system.
         That is a hypothesis about the product direction, not a claim about Whitney Wolfe Herd&rsquo;s private views or a prediction about what any company will ship.
       </p>
-      <h3>1. A safer place to start</h3>
+      <details class="reflection-card">
+        <summary>1. A safer place to start</summary>
+        <p>
+          People may find it easier to say something vulnerable to a responsive face and voice than to a blank text box. That could help a concierge understand a recent breakup, a boundary, or a communication preference.
+          It could also make disclosure feel more persuasive than it deserves to be. A warm expression is not evidence of understanding, so the system must say what it remembers and why it is asking.
+        </p>
+      </details>
+      <details class="reflection-card">
+        <summary>2. A boundary around the human connection</summary>
+        <p>
+          The Digital Human could absorb repetitive introductions, awkward first passes, and some rejection before the person enters the real interaction. The goal would be to protect time and attention so people meet sooner when there is a reason to meet.
+          The boundary matters: the avatar can filter friction, but it cannot grant consent, define compatibility, or speak for someone without their review.
+        </p>
+      </details>
+      <details class="reflection-card">
+        <summary>3. A new interface norm</summary>
+        <p>
+          Swiping through a grid was once the new interface. Conversing with a Digital Human representative could be another shift, from selecting profiles to explaining what matters and receiving a small set of reasons to continue.
+          The product earns that shift only if it gives people more agency than the feed did. Otherwise it is the same exhaustion wearing a friendlier face.
+        </p>
+      </details>
+
+      <h2>What the AI should learn, and what it should never become</h2>
       <p>
-        People may find it easier to say something vulnerable to a responsive face and voice than to a blank text box. That could help a concierge understand a recent breakup, a boundary, or a communication preference.
-        It could also make disclosure feel more persuasive than it deserves to be. A warm expression is not evidence of understanding, so the system must say what it remembers and why it is asking.
+        The useful version of the onboarding conversation is not a generic personality quiz. With permission, an LLM could ask what a person learned from a breakup, what they do not want to repeat, and what kind of relationship they are trying to build.
+        Attachment theory and other relationship research could help organize those signals, but the model should present them as working context, not as a diagnosis or a permanent label.
       </p>
-      <h3>2. A boundary around the human connection</h3>
+      <div class="note-panel">
+        <h2>Voice standard</h2>
+        <p>
+          Not: “You have an anxious attachment style. Here are three profiles.”
+          Better: “It sounds like feeling secure and chosen early on matters to you. Would you like to look for people who value clarity and steady communication?”
+          The system should reflect what it heard, ask before interpreting, and leave the person room to disagree.
+        </p>
+      </div>
+      <h2>Accessibility is emotional equity</h2>
       <p>
-        The Digital Human could absorb repetitive introductions, awkward first passes, and some rejection before the person enters the real interaction. The goal would be to protect time and attention so people meet sooner when there is a reason to meet.
-        The boundary matters: the avatar can filter friction, but it cannot grant consent, define compatibility, or speak for someone without their review.
+        A system cannot ask someone to share vulnerable context while making the interface exhausting to read, hear, navigate, or correct. Accessibility is part of psychological safety: the person should be able to slow the conversation down, use text instead of voice, follow updates with a screen reader, and leave without losing their work.
       </p>
-      <h3>3. A new interface norm</h3>
+      <ul>
+        <li>Every voice interaction has an equivalent text path, with captions and visible status labels.</li>
+        <li>Every changing assistant message uses polite announcements instead of interrupting the person.</li>
+        <li>Every control works with a keyboard, remains visible at high zoom, and has a clear correction or reset path.</li>
+        <li>Every calming color still meets contrast requirements, with a user-controlled high-contrast mode.</li>
+      </ul>
       <p>
-        Swiping through a grid was once the new interface. Conversing with a Digital Human representative could be another shift, from selecting profiles to explaining what matters and receiving a small set of reasons to continue.
-        The product earns that shift only if it gives people more agency than the feed did. Otherwise it is the same exhaustion wearing a friendlier face.
+        There is also a hard boundary. The system should help people meet people, not become a virtual boyfriend or girlfriend, and not ask a user to fall in love with the product instead.
+        A Digital Human may make the coaching conversation more approachable, but it must remain a door back to human life.
+      </p>
+
+      <h2>A three-step concierge workflow</h2>
+      <ol class="workflow-list">
+        <li>
+          <h3>Start with the truth you choose to share</h3>
+          <p>The first interaction is a private conversation, not a generic bio form. Someone can describe a recent breakup, a boundary, or a communication pattern in their own words. The system may reflect and ask a useful next question, but it must not diagnose, pressure, or quietly keep what the person did not agree to store.</p>
+        </li>
+        <li>
+          <h3>Look for patterns without pretending certainty</h3>
+          <p>With permission, the model can organize stated preferences and observable context such as outdoor interests, routines, or communication needs. It should show what it inferred, let the person correct it, and distinguish a preference from a permanent identity.</p>
+        </li>
+        <li>
+          <h3>Hand back a few human possibilities</h3>
+          <p>Authorized assistants may compare boundaries and values in the background, but the output should be a small, explainable set of people worth a human conversation. The AI does not message strangers, impersonate anyone, or turn a recommendation into a commitment.</p>
+        </li>
+      </ol>
+
+      <div class="note-panel">
+        <h2>Non-negotiables</h2>
+        <p>
+          No catfishing. No deepfakes. No AI ghostwriting to real people. No virtual partner replacing the human relationship. The assistant can coach, organize, and filter friction; people keep identity, consent, and the final conversation.
+        </p>
+      </div>
+      <h3>Authenticity is a product requirement</h3>
+      <p>
+        The AI should help someone present their genuine strengths, not manufacture a different body, invent a life, or ghostwrite a relationship. A clearer photo, a more honest profile, and better self-understanding are coaching. Falsified media and automated messages are deception.
+      </p>
+      <h3>Compatibility should not require isolation</h3>
+      <p>
+        Better machine learning could understand specific lifestyle preferences inside one broad community instead of forcing every identity or interest into a separate silo. That promise only matters if people can see what shaped a recommendation and refuse categories that do not fit them.
       </p>
 
       <h2>Why the idea catches fire</h2>
@@ -137,7 +252,9 @@
         The closest cultural reference is the <em>Black Mirror</em> episode “Hang the DJ,” where simulated relationships are tested at scale before real people meet. It is a useful warning about optimisation becoming destiny, not a product specification.
       </p>
       <ul>
-        <li><a href="https://www.cnbc.com/2024/05/10/bumble-founder-whitney-wolfe-herd-says-ai-could-date-for-you.html" rel="noopener noreferrer">CNBC coverage</a> on dating fatigue and the concierge proposal.</li>
+        <li><a href="https://www.wsj.com/tech/ai/whitney-wolfe-herd-bumble-ai-398779bb" rel="noopener noreferrer">Wall Street Journal coverage</a> on the reported Bee assistant and emotionally informed onboarding.</li>
+        <li><a href="https://techcrunch.com/2023/09/28/bumble-ceo-whitney-wolfe-herd-shares-how-ai-will-supercharge-love-and-relationships/" rel="noopener noreferrer">TechCrunch coverage</a> on keeping AI pointed toward human relationships rather than replacing them.</li>
+        <li><a href="https://www.cnbc.com/2024/05/10/bumble-founder-whitney-wolfe-herd-says-ai-could-date-for-you.html" rel="noopener noreferrer">CNBC coverage</a> on private coaching, dating fatigue, and the concierge proposal.</li>
         <li><a href="https://fortune.com/2024/05/10/bumbles-whitney-wolfe-herd-dating-concierge-artificial-intelligence/" rel="noopener noreferrer">Fortune coverage</a> on the city and “top three” example.</li>
         <li><a href="https://www.nbcnews.com/tech/internet/ai-personas-are-future-dating-bumble-founder-says-many-arent-buying-rcna151738" rel="noopener noreferrer">NBC News coverage</a> on skepticism and existing AI-dating experiments.</li>
         <li><a href="https://qz.com/bumble-ai-dating-concierge-1851468949" rel="noopener noreferrer">Quartz coverage</a> on the interview and audience reaction.</li>
