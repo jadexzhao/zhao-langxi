@@ -1,0 +1,31 @@
+zhao-langxi · NOTES FOR JADE
+Skeleton layout pass (founder-story structure on Rivet / institutional chrome). Not committed unless you ask.
+
+STATUS · matchaxmoxie
+- Left alone. No HTML/CSS edits under ~/Documents/matchaxmoxie/.
+- Scratch MIT.edu classroom vibe must stay. Do not convert to Whitney founder layout.
+- Status panel on this home page only notes that classroom door is separate.
+
+Whitney pattern mapped (structure only)
+1. Thesis: “Looking human is not the product.”
+2. Origin: restaurant / systems that survive customers → DH question
+3. Essays = proof of thinking on this door
+4. Beyond: jadexzhao / matchaxmoxie / LinkedIn as rooms (BFF analogy is structural only)
+5. Next step CTAs
+
+What to fill next (dashed “Fill later” boxes on index.html)
+- thesis-line: optional sharper essay-voice thesis
+- origin-essay: one origin paragraph or link to a future note
+- essay-queue: next titles (AI + law, Madrid, etc. as interest only)
+- beyond-bts: first BTS note readers should see
+- cta-priority: primary CTA (usually Read the question)
+
+Preview
+- file:///Users/jadexzhao/Documents/zhao-langxi/index.html
+- GitHub Pages base path: /zhao-langxi/ (use a local static server if relative assets break on file://)
+- live: https://zhao-langxi.github.io/zhao-langxi/
+
+1st-person taste calls
+- Keep or cut the explicit Bumble BFF sentence in #beyond
+- Whether nav should stay Thesis/Origin/Essays/Beyond or return to essay titles only
+- When fill-holes are filled, delete the dashed boxes
