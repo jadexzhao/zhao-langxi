@@ -248,6 +248,28 @@ p { margin: 0 0 1em; max-width: 65ch; text-wrap: pretty; }
   max-width: 62ch;
 }
 
+.jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1.25rem;
+}
+.jump-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.35rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--iu-rule);
+  color: var(--iu-muted);
+  font: 700 0.78rem/1 var(--font-ui);
+  text-decoration: none;
+}
+.jump-nav a:hover {
+  border-color: var(--iu-ink);
+  background: var(--yellow);
+  color: var(--iu-ink);
+}
+
 .hero {
   display: grid;
   gap: clamp(2rem, 7vw, 7rem);
